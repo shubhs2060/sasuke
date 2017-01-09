@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "raas"
   spec.version       = Raas::VERSION
   spec.authors       = ["shubhs2050"]
-  spec.email         = ["[shubham@rubyeffect.com]"]
+  spec.email         = ["shubham@rubyeffect.com"]
 
   spec.summary       = %q{Let's see what we have}
   spec.description   = %q{First gem creation}
