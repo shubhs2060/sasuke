@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'raas/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Raas"
+  spec.name          = "op"
   spec.version       = Raas::VERSION
   spec.authors       = ["shubhs2050"]
   spec.email         = ["shubham@rubyeffect.com"]
