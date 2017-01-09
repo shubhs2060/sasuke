@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'raas/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "raas"
+  spec.name          = "Raas"
   spec.version       = Raas::VERSION
   spec.authors       = ["shubhs2050"]
   spec.email         = ["shubham@rubyeffect.com"]
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   #   raise "RubyGems 2.0 or newer is required to protect against public gem pushes."
   # end
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test)/}) }
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
