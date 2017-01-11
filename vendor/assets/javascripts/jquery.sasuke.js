@@ -1,41 +1,19 @@
+function isHidden() {
+  return document[getHiddenProperty()]
+}
 
+function getVisibilityChangeEvent() {
+  var visProp = getHiddenProperty();
+  if (visProp) {
+var eventName = visProp.replace(/[H|h]idden/,'') + 'visibilitychange';
+    return eventName
+  }
+}
+var a = document.title;
 
-setInterval(function(){tab_visibility()},500);
-
-
-			tab_visibility = function(){
-
-
-				var hidden, state, visibilityChange; 
-
-
-
-				if (typeof document.hidden !== "undefined") {
-
-					state = "visibilityState";
-
-				} else if (typeof document.mozHidden !== "undefined") {
-
-					state = "mozVisibilityState";
-
-				} else if (typeof document.msHidden !== "undefined") {
-
-					state = "msVisibilityState";
-
-				} else if (typeof document.webkitHidden !== "undefined") {
-
-					state = "webkitVisibilityState";
-
-				}
-
-
-
-				if(document[state] == "hidden")
-
-					document.title = "Inactive";
-
-				else
-
-					document.title = "Active";
-
-			}
+document.addEventListener(getVisibilityChangeEvent(), function(event){
+  if (isHidden())
+      document.title = a + "(Inactive)"
+  else
+      document.title = a + "(Active)"
+})
