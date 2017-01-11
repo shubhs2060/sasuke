@@ -1,5 +1,5 @@
 class String
-  def raas
+  def sasuke
     self.gsub("s","z")
   end
 end

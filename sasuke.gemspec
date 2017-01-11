@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'raas/version'
+require 'sasuke/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "sasuke"
-  spec.version       = Raas::VERSION
+  spec.version       = Sasuke::VERSION
   spec.authors       = ["shubhs2050"]
   spec.email         = ["shubham@rubyeffect.com"]
 
   spec.summary       = %q{Let's see what we have}
   spec.description   = %q{First gem creation}
-  spec.homepage      = "https://github.com/shubhs2050/raas"
+  spec.homepage      = "https://github.com/shubhs2050/sasuke"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

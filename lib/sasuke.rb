@@ -1,7 +1,7 @@
-require "raas/version"
-require "raas/string"
+require "sasuke/version"
+require "sasuke/string"
 
-module Raas
+module Sasuke
   # Your code goes here...
   class Engine < ::Rails::Engine
   end
