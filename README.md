@@ -27,9 +27,9 @@ TODO: Include sasuke.js in your appplication.js
     //= require sasuke
 
 Thats'all start the rails server and it works.
-![active-alt-tag](https://github.com/shubhs2050/sasuke/tree/master/app/assets/images/active.png)
+![active-alt-tag](/app/assets/images/active.png)
 
-![inactive-alt-tag](https://github.com/shubhs2050/sasuke/tree/master/app/assets/images/inactive.png)
+![inactive-alt-tag](/app/assets/images/inactive.png)
 
 ## Development
 
