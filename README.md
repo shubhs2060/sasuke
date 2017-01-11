@@ -27,6 +27,9 @@ TODO: Include sasuke.js in your appplication.js
     //= require sasuke
 
 Thats'all start the rails server and it works.
+![alt tag](https://github.com/shubhs2050/sasuke/tree/master/app/assets/images/active.png)
+![alt tag](https://github.com/shubhs2050/sasuke/tree/master/app/assets/images/inactive.png)
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
