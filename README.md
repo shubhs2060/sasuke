@@ -1,8 +1,6 @@
 # Sasuke
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sasuke`. To experiment with that code, run `bin/console` for an interactive prompt .
-
-TODO: Delete this and the text above, and describe your gem
+Hi guys , I have made this gem to address the issues faced by companies while having their online test . Using this gem you can restrict the user to a particular tab for performing the request and then only move to the next tab after the request from a tab is fullfilled.
 
 ## Installation
 
