@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["shubham@rubyeffect.com"]
 
   spec.summary       = %q{Let's see what we have}
-  spec.description   = %q{First gem creation}
+  spec.description   = %q{This gem you can use to restrict the user to a particular tab for performing the request and then only move to the next tab after the request from a tab is fullfilled.
+}
   spec.homepage      = "https://github.com/shubhs2050/sasuke"
   spec.license       = "MIT"
 
